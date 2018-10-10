@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		037B7FEE216DD40000EF87AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037B7FED216DD40000EF87AC /* AppDelegate.swift */; };
+		037B7FF0216DD40000EF87AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037B7FEF216DD40000EF87AC /* ViewController.swift */; };
+		037B7FF3216DD40000EF87AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 037B7FF1216DD40000EF87AC /* Main.storyboard */; };
+		037B7FF6216DD40000EF87AC /* SteinsGate.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 037B7FF4216DD40000EF87AC /* SteinsGate.xcdatamodeld */; };
+		037B7FF8216DD40300EF87AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 037B7FF7216DD40300EF87AC /* Assets.xcassets */; };
+		037B7FFB216DD40300EF87AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 037B7FF9216DD40300EF87AC /* LaunchScreen.storyboard */; };
+		037B8006216DD40400EF87AC /* SteinsGateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037B8005216DD40400EF87AC /* SteinsGateTests.swift */; };
+		037B8011216DD40400EF87AC /* SteinsGateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037B8010216DD40400EF87AC /* SteinsGateUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		037B8002216DD40400EF87AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 037B7FE2216DD40000EF87AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 037B7FE9216DD40000EF87AC;
+			remoteInfo = SteinsGate;
+		};
+		037B800D216DD40400EF87AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 037B7FE2216DD40000EF87AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 037B7FE9216DD40000EF87AC;
+			remoteInfo = SteinsGate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		037B7FEA216DD40000EF87AC /* SteinsGate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SteinsGate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		037B7FED216DD40000EF87AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		037B7FEF216DD40000EF87AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		037B7FF2216DD40000EF87AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		037B7FF5216DD40000EF87AC /* SteinsGate.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SteinsGate.xcdatamodel; sourceTree = "<group>"; };
+		037B7FF7216DD40300EF87AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		037B7FFA216DD40300EF87AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		037B7FFC216DD40300EF87AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		037B8001216DD40400EF87AC /* SteinsGateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SteinsGateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		037B8005216DD40400EF87AC /* SteinsGateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteinsGateTests.swift; sourceTree = "<group>"; };
+		037B8007216DD40400EF87AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		037B800C216DD40400EF87AC /* SteinsGateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SteinsGateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		037B8010216DD40400EF87AC /* SteinsGateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteinsGateUITests.swift; sourceTree = "<group>"; };
+		037B8012216DD40400EF87AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		037B7FE7216DD40000EF87AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		037B7FFE216DD40400EF87AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		037B8009216DD40400EF87AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		037B7FE1216DD40000EF87AC = {
+			isa = PBXGroup;
+			children = (
+				037B7FEC216DD40000EF87AC /* SteinsGate */,
+				037B8004216DD40400EF87AC /* SteinsGateTests */,
+				037B800F216DD40400EF87AC /* SteinsGateUITests */,
+				037B7FEB216DD40000EF87AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		037B7FEB216DD40000EF87AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				037B7FEA216DD40000EF87AC /* SteinsGate.app */,
+				037B8001216DD40400EF87AC /* SteinsGateTests.xctest */,
+				037B800C216DD40400EF87AC /* SteinsGateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		037B7FEC216DD40000EF87AC /* SteinsGate */ = {
+			isa = PBXGroup;
+			children = (
+				037B7FED216DD40000EF87AC /* AppDelegate.swift */,
+				037B7FEF216DD40000EF87AC /* ViewController.swift */,
+				037B7FF1216DD40000EF87AC /* Main.storyboard */,
+				037B7FF7216DD40300EF87AC /* Assets.xcassets */,
+				037B7FF9216DD40300EF87AC /* LaunchScreen.storyboard */,
+				037B7FFC216DD40300EF87AC /* Info.plist */,
+				037B7FF4216DD40000EF87AC /* SteinsGate.xcdatamodeld */,
+			);
+			path = SteinsGate;
+			sourceTree = "<group>";
+		};
+		037B8004216DD40400EF87AC /* SteinsGateTests */ = {
+			isa = PBXGroup;
+			children = (
+				037B8005216DD40400EF87AC /* SteinsGateTests.swift */,
+				037B8007216DD40400EF87AC /* Info.plist */,
+			);
+			path = SteinsGateTests;
+			sourceTree = "<group>";
+		};
+		037B800F216DD40400EF87AC /* SteinsGateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				037B8010216DD40400EF87AC /* SteinsGateUITests.swift */,
+				037B8012216DD40400EF87AC /* Info.plist */,
+			);
+			path = SteinsGateUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		037B7FE9216DD40000EF87AC /* SteinsGate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 037B8015216DD40400EF87AC /* Build configuration list for PBXNativeTarget "SteinsGate" */;
+			buildPhases = (
+				037B7FE6216DD40000EF87AC /* Sources */,
+				037B7FE7216DD40000EF87AC /* Frameworks */,
+				037B7FE8216DD40000EF87AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SteinsGate;
+			productName = SteinsGate;
+			productReference = 037B7FEA216DD40000EF87AC /* SteinsGate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		037B8000216DD40400EF87AC /* SteinsGateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 037B8018216DD40400EF87AC /* Build configuration list for PBXNativeTarget "SteinsGateTests" */;
+			buildPhases = (
+				037B7FFD216DD40400EF87AC /* Sources */,
+				037B7FFE216DD40400EF87AC /* Frameworks */,
+				037B7FFF216DD40400EF87AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				037B8003216DD40400EF87AC /* PBXTargetDependency */,
+			);
+			name = SteinsGateTests;
+			productName = SteinsGateTests;
+			productReference = 037B8001216DD40400EF87AC /* SteinsGateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		037B800B216DD40400EF87AC /* SteinsGateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 037B801B216DD40400EF87AC /* Build configuration list for PBXNativeTarget "SteinsGateUITests" */;
+			buildPhases = (
+				037B8008216DD40400EF87AC /* Sources */,
+				037B8009216DD40400EF87AC /* Frameworks */,
+				037B800A216DD40400EF87AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				037B800E216DD40400EF87AC /* PBXTargetDependency */,
+			);
+			name = SteinsGateUITests;
+			productName = SteinsGateUITests;
+			productReference = 037B800C216DD40400EF87AC /* SteinsGateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		037B7FE2216DD40000EF87AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Iris;
+				TargetAttributes = {
+					037B7FE9216DD40000EF87AC = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					037B8000216DD40400EF87AC = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 037B7FE9216DD40000EF87AC;
+					};
+					037B800B216DD40400EF87AC = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 037B7FE9216DD40000EF87AC;
+					};
+				};
+			};
+			buildConfigurationList = 037B7FE5216DD40000EF87AC /* Build configuration list for PBXProject "SteinsGate" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 037B7FE1216DD40000EF87AC;
+			productRefGroup = 037B7FEB216DD40000EF87AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				037B7FE9216DD40000EF87AC /* SteinsGate */,
+				037B8000216DD40400EF87AC /* SteinsGateTests */,
+				037B800B216DD40400EF87AC /* SteinsGateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		037B7FE8216DD40000EF87AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				037B7FFB216DD40300EF87AC /* LaunchScreen.storyboard in Resources */,
+				037B7FF8216DD40300EF87AC /* Assets.xcassets in Resources */,
+				037B7FF3216DD40000EF87AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		037B7FFF216DD40400EF87AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		037B800A216DD40400EF87AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		037B7FE6216DD40000EF87AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				037B7FF0216DD40000EF87AC /* ViewController.swift in Sources */,
+				037B7FF6216DD40000EF87AC /* SteinsGate.xcdatamodeld in Sources */,
+				037B7FEE216DD40000EF87AC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		037B7FFD216DD40400EF87AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				037B8006216DD40400EF87AC /* SteinsGateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		037B8008216DD40400EF87AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				037B8011216DD40400EF87AC /* SteinsGateUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		037B8003216DD40400EF87AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 037B7FE9216DD40000EF87AC /* SteinsGate */;
+			targetProxy = 037B8002216DD40400EF87AC /* PBXContainerItemProxy */;
+		};
+		037B800E216DD40400EF87AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 037B7FE9216DD40000EF87AC /* SteinsGate */;
+			targetProxy = 037B800D216DD40400EF87AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		037B7FF1216DD40000EF87AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				037B7FF2216DD40000EF87AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		037B7FF9216DD40300EF87AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				037B7FFA216DD40300EF87AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		037B8013216DD40400EF87AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		037B8014216DD40400EF87AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		037B8016216DD40400EF87AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SteinsGate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iris.SteinsGate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		037B8017216DD40400EF87AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SteinsGate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iris.SteinsGate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		037B8019216DD40400EF87AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SteinsGateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iris.SteinsGateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SteinsGate.app/SteinsGate";
+			};
+			name = Debug;
+		};
+		037B801A216DD40400EF87AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SteinsGateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iris.SteinsGateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SteinsGate.app/SteinsGate";
+			};
+			name = Release;
+		};
+		037B801C216DD40400EF87AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SteinsGateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iris.SteinsGateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SteinsGate;
+			};
+			name = Debug;
+		};
+		037B801D216DD40400EF87AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SteinsGateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iris.SteinsGateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SteinsGate;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		037B7FE5216DD40000EF87AC /* Build configuration list for PBXProject "SteinsGate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				037B8013216DD40400EF87AC /* Debug */,
+				037B8014216DD40400EF87AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		037B8015216DD40400EF87AC /* Build configuration list for PBXNativeTarget "SteinsGate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				037B8016216DD40400EF87AC /* Debug */,
+				037B8017216DD40400EF87AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		037B8018216DD40400EF87AC /* Build configuration list for PBXNativeTarget "SteinsGateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				037B8019216DD40400EF87AC /* Debug */,
+				037B801A216DD40400EF87AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		037B801B216DD40400EF87AC /* Build configuration list for PBXNativeTarget "SteinsGateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				037B801C216DD40400EF87AC /* Debug */,
+				037B801D216DD40400EF87AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		037B7FF4216DD40000EF87AC /* SteinsGate.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				037B7FF5216DD40000EF87AC /* SteinsGate.xcdatamodel */,
+			);
+			currentVersion = 037B7FF5216DD40000EF87AC /* SteinsGate.xcdatamodel */;
+			path = SteinsGate.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 037B7FE2216DD40000EF87AC /* Project object */;
+}
