@@ -7,14 +7,22 @@
 //
 
 import UIKit
-
-class ViewController: UIViewController {
-
+import WebKit
+class video1: UIViewController, WKUIDelegate, WKNavigationDelegate {
+    var webView: WKWebView!
+    
+    override func loadView() {
+        let webConfiguration = WKWebViewConfiguration()
+        webView = WKWebView(frame: .zero, configuration: webConfiguration)
+        webView.uiDelegate = self
+        view = webView
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let myURL = URL(string:"https://www.youtube.com/embed/6XkXlWRf7eY")
+        let myRequest = URLRequest(url: myURL!)
+        webView.load(myRequest)
+        webView.allowsBackForwardNavigationGestures = true
     }
-
-
 }
-
